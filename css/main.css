@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ビューポートの高さに合わせる */
+    background-color: #f0f0f0; /* 背景色を設定（任意） */
+}
+
 #omikuji {
     text-align: center;
     width: 294px;
